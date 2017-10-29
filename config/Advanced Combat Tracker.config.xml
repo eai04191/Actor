@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+    <SettingsSerializer>
+        <NumericUpDown Name="nudIdleLimit" Value="30" />
+    </SettingsSerializer>
+    <ActPlugins>
+        <Plugin Enabled="True" Path="ACTPATH\FFXIV_ACT_Plugin.dll" />
+        <Plugin Enabled="True" Path="ACTPATH\ACT.SpecialSpellTimer.dll" />
+        <Plugin Enabled="True" Path="ACTPATH\OverlayPlugin\OverlayPlugin.dll" />
+    </ActPlugins>
+</Config>
