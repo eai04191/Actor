@@ -13,6 +13,11 @@ FFXIVで使うためのACTを一発で導入するツールです。
     * `Number of seconds to wait after the last combat action to begin a new encounter.`: __30__
 7. ショートカットの作成
 
+## 対象
+- ACTを初めて使う人
+- 新しいPCなどにACTをセットアップしたい人
+
+設定が初期化されるのですでに使用している人は注意してください
 
 # 使い方
 1. [Releases](https://github.com/eai04191/Actor/releases)から最新のリリースをダウンロード・解凍する。
