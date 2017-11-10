@@ -4,8 +4,10 @@
         <NumericUpDown Name="nudIdleLimit" Value="30" />
     </SettingsSerializer>
     <ActPlugins>
-        <Plugin Enabled="True" Path="ACTPATH\FFXIV_ACT_Plugin.dll" />
-        <Plugin Enabled="True" Path="ACTPATH\ACT.SpecialSpellTimer.dll" />
-        <Plugin Enabled="True" Path="ACTPATH\OverlayPlugin\OverlayPlugin.dll" />
+        <Plugin Enabled="True" Path="ACTPATH\plugin\FFXIV_ACT_Plugin\FFXIV_ACT_Plugin.dll" />
+        <Plugin Enabled="True" Path="ACTPATH\plugin\Hojoring\ACT.SpecialSpellTimer.dll" />
+        <Plugin Enabled="True" Path="ACTPATH\plugin\Hojoring\ACT.UltraScouter.dll" />
+        <Plugin Enabled="True" Path="ACTPATH\plugin\Hojoring\ACT.TTSYukkuri.dll" />
+        <Plugin Enabled="True" Path="ACTPATH\plugin\OverlayPlugin\OverlayPlugin.dll" />
     </ActPlugins>
 </Config>
