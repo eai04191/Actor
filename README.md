@@ -20,8 +20,8 @@ FFXIVで使うためのACTを一発で導入するツールです。
 インストール時に確認がありますがコンフィグが初期化されるのですでに使用している人は注意してください
 
 # 使い方
-1. [Releases](https://github.com/eai04191/Actor/releases)から最新の`Actor_vX.X.X.zip`をダウンロード・解凍する。
-2. ACTをインストールしたい場所でActorを実行する。
+1. [Releases](https://github.com/eai04191/Actor/releases)から最新の`Actor_vX.X.X.zip`をダウンロード・展開する。
+2. ACTをインストールしたい場所まで展開した __フォルダごと__ 移動してActorを実行する。
 3. おわり
 
 # 以下のコードを利用しています
