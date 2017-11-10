@@ -5,7 +5,7 @@ FFXIVで使うためのACTを一発で導入するツールです。
 1. [Advanced Combat Tracker](http://advancedcombattracker.com/)最新版のダウンロード
 2. [FFXIV_ACT_Plugin](https://github.com/ravahn/FFXIV_ACT_Plugin)最新版のダウンロード
 3. [OverlayPlugin](https://github.com/hibiyasleep/OverlayPlugin)(hibiyasleep氏の版)最新版のダウンロード
-4. [Hojyoring](https://github.com/anoyetta/ACT.Hojyoring)最新版のダウンロード
+4. [Hojoring](https://github.com/anoyetta/ACT.Hojoring)最新版のダウンロード
 5. ダウンロードしたプラグインの導入
 6. 初期設定
     * `GameLanguage`: __日本語__
@@ -17,7 +17,7 @@ FFXIVで使うためのACTを一発で導入するツールです。
 - ACTを初めて使う人
 - 新しいPCなどにACTをセットアップしたい人
 
-設定が初期化されるのですでに使用している人は注意してください
+インストール時に確認がありますがコンフィグが初期化されるのですでに使用している人は注意してください
 
 # 使い方
 1. [Releases](https://github.com/eai04191/Actor/releases)から最新のリリースをダウンロード・解凍する。
