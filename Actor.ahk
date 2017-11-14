@@ -9,7 +9,7 @@ GetAPI(URL) {
     Return whr.ResponseText
 }
 
-MsgBox, 36, Actor v1.0.3, ACTは%A_ScriptDir%\ACTにインストールされます。`nインストールを開始しますか？
+MsgBox, 36, Actor v1.0.4, ACTは%A_ScriptDir%\ACTにインストールされます。`nインストールを開始しますか？
 IfMsgBox, No
     Exit
 
@@ -26,7 +26,7 @@ MsgBox, 36, Actor v1.0.2, 動作に必要なランタイム類`n･Visual Studio
 IfMsgBox, Yes
 {
     MsgBox, 64, Actor, インストール中に再起動を求められた場合 [あとで再起動する] を選択し、`nすべての処理が完了してから再起動してください。
-    Progress, 2:0 A M T W600, ランタイムインストーラ, Actor ランタイムインストーラ v1.0.3, Actor - ACT One-click Ready
+    Progress, 2:0 A M T W600, ランタイムインストーラ, Actor ランタイムインストーラ v1.0.4, Actor - ACT One-click Ready
     dotNetfx47_URL = http://go.microsoft.com/fwlink/?linkid=825298
     Win10Pcap_URL = http://www.win10pcap.org/download/Win10Pcap-v10.2-5002.msi
     If (A_Is64bitOS) {
@@ -51,7 +51,7 @@ IfMsgBox, Yes
     Progress, 2:Off
 }
 
-Progress, 1:0 A M T, 準備中, Actor v1.0.3, Actor - ACT One-click Ready
+Progress, 1:0 A M T, 準備中, Actor v1.0.4, Actor - ACT One-click Ready
 
 Progress, 1:10, ACTをダウンロード
 URLDownloadToFile % ACT_URL, % A_ScriptDir . "\actor_download\ACT.zip"
