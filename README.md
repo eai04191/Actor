@@ -1,5 +1,9 @@
 # Actor
+![Total Download](https://img.shields.io/github/downloads/eai04191/Actor/total.svg)
+
 FFXIVで使うためのACTを一発で導入するツールです。
+
+![Screenshot](https://i.imgur.com/A7G3mYT.png)
 
 ## Actorがしてくれること
 1. [Advanced Combat Tracker](http://advancedcombattracker.com/)最新版のダウンロード
