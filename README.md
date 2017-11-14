@@ -23,6 +23,7 @@ ACTを動かすために必要なソフト類のインストール
     * `GameLanguage`: __日本語__
     * `ParseFilter`: __Party__
     * `Number of seconds to wait after the last combat action to begin a new encounter.`: __30__
+    * [x] `Use WinPCap Network Driver`
 7. ショートカットの作成
 
 ## 対象
