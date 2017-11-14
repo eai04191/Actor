@@ -110,6 +110,7 @@ FileCopyDir % A_ScriptDir . "\actor_download\ACT", % A_ScriptDir . "\ACT", 1
 
 MsgBox, 36, Actor, コンフィグをインストールしますか?`n既存のコンフィグは削除されます。
 IfMsgBox, Yes
+{
     FileRemoveDir, % A_AppData . "\Advanced Combat Tracker\Config", 1
     Progress, 1:70, コンフィグをインストール
     FileRead, ACTconfig, % A_ScriptDir . "\config\Advanced Combat Tracker.config.xml"
@@ -117,7 +118,7 @@ IfMsgBox, Yes
     FileCreateDir % A_AppData . "\Advanced Combat Tracker\Config"
     FileAppend , %ACTconfig%, % A_AppData . "\Advanced Combat Tracker\Config\Advanced Combat Tracker.config.xml"
     FileCopy % A_ScriptDir . "\config\FFXIV_ACT_Plugin.config.xml", % A_AppData . "\Advanced Combat Tracker\Config\", 1
-
+}
 
 MsgBox, 36, Actor, デスクトップにショートカットを作成しますか?
 IfMsgBox, Yes
