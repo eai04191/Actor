@@ -20,10 +20,10 @@ ACTを動かすために必要なソフト類のインストール
 4. [Hojoring](https://github.com/anoyetta/ACT.Hojoring)最新版のダウンロード
 5. ダウンロードしたプラグインの導入（任意）
 6. 初期設定（任意）
-    * `GameLanguage`: __日本語__
-    * `ParseFilter`: __Party__
-    * `Number of seconds to wait after the last combat action to begin a new encounter.`: __30__
-    * [x] `Use WinPCap Network Driver`
+  - `GameLanguage`: __日本語__
+  - `ParseFilter`: __Party__
+  - `Number of seconds to wait after the last combat action to begin a new encounter.`: __30__
+  - [x] `Use WinPCap Network Driver`
 7. ショートカットの作成（任意）
 
 ## 対象
