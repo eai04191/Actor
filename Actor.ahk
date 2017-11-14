@@ -22,7 +22,7 @@ OverlayPlugin_URL = https://api.github.com/repos/hibiyasleep/OverlayPlugin/relea
 FileRemoveDir % A_ScriptDir . "\actor_download", 1
 FileCreateDir % A_ScriptDir . "\actor_download"
 
-MsgBox, 36, Actor v1.0.2, 動作に必要なランタイム類`n･Visual Studio 2017 用 Microsoft Visual C++ 再頒布可能パッケージ`n･Microsoft .NET Framework 4.7`n･Win10Pcap`nをダウンロード・インストールしますか?`n`nよくわからなければ [はい] を選択してください。
+MsgBox, 36, Actor, 動作に必要なランタイム類`n･Visual Studio 2017 用 Microsoft Visual C++ 再頒布可能パッケージ`n･Microsoft .NET Framework 4.7`n･Win10Pcap`nをダウンロード・インストールしますか?`n`nよくわからなければ [はい] を選択してください。
 IfMsgBox, Yes
 {
     MsgBox, 64, Actor, インストール中に再起動を求められた場合 [あとで再起動する] を選択し、`nすべての処理が完了してから再起動してください。
