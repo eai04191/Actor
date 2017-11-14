@@ -18,13 +18,13 @@ ACTを動かすために必要なソフト類のインストール
 2. [FFXIV_ACT_Plugin](https://github.com/ravahn/FFXIV_ACT_Plugin)最新版のダウンロード
 3. [OverlayPlugin](https://github.com/hibiyasleep/OverlayPlugin)(hibiyasleep氏の版)最新版のダウンロード
 4. [Hojoring](https://github.com/anoyetta/ACT.Hojoring)最新版のダウンロード
-5. ダウンロードしたプラグインの導入
-6. 初期設定
-    * `GameLanguage`: __日本語__
+5. ダウンロードしたプラグインの導入（任意）
+6. 初期設定（任意）
+    * `GameLanguage`: __日本語__
     * `ParseFilter`: __Party__
     * `Number of seconds to wait after the last combat action to begin a new encounter.`: __30__
     * [x] `Use WinPCap Network Driver`
-7. ショートカットの作成
+7. ショートカットの作成（任意）
 
 ## 対象
 - ACTを初めて使う人
@@ -40,7 +40,7 @@ ACTを動かすために必要なソフト類のインストール
 ## 設定を引き継いだまま最新のプラグイン、ACTにしたいんだけど……
 インストールを終えた後 __コンフィグをインストールしますか?__ で __いいえ__ を選択してください。
 
-その後ATCを起動して`Plugins`から
+その後ATCを起動して`Plugins`から、古いプラグインを`Remove`した上で
 
   - `ACT\plugin\FFXIV_ACT_Plugin\FFXIV_ACT_Plugin.dll`
   - `ACT\plugin\OverlayPlugin\OverlayPlugin.dll`
