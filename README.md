@@ -1,5 +1,5 @@
 # Actor
-![Total Download](https://img.shields.io/github/downloads/eai04191/Actor/total.svg)
+[![Total Download](https://img.shields.io/github/downloads/eai04191/Actor/total.svg)](https://github.com/eai04191/Actor/releases)
 
 FFXIVで使うためのACTを一発で導入するツールです。
 
