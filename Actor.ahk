@@ -122,6 +122,7 @@ IfMsgBox, Yes
 
 MsgBox, 36, Actor, デスクトップにショートカットを作成しますか?
 IfMsgBox, Yes
+{
     If (A_Is64bitOS)
     {
       FileCreateShortcut, % A_ScriptDir . "\ACT\Advanced Combat Tracker.exe", % A_Desktop . "\Advanced Combat Tracker.lnk"
@@ -130,5 +131,6 @@ IfMsgBox, Yes
     {
       FileCreateShortcut, % A_ScriptDir . "\ACT\ACTx86.exe", % A_Desktop . "\Advanced Combat Tracker(x86).lnk"
     }
+}
 
 MsgBox, 64, Actor, すべての処理が完了しました
