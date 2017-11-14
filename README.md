@@ -6,6 +6,14 @@ FFXIVで使うためのACTを一発で導入するツールです。
 ![Screenshot](https://i.imgur.com/A7G3mYT.png)
 
 ## Actorがしてくれること
+
+### ランタイム類インストール
+ACTを動かすために必要なソフト類のインストール
+ - Visual Studio 2017 用 Microsoft Visual C++ 再頒布可能パッケージ
+ - .NET Framework 4.7
+ - Win10Pcap
+
+### ACTインストール
 1. [Advanced Combat Tracker](http://advancedcombattracker.com/)最新版のダウンロード
 2. [FFXIV_ACT_Plugin](https://github.com/ravahn/FFXIV_ACT_Plugin)最新版のダウンロード
 3. [OverlayPlugin](https://github.com/hibiyasleep/OverlayPlugin)(hibiyasleep氏の版)最新版のダウンロード
