@@ -37,10 +37,15 @@ ACTを動かすために必要なソフト類のインストール
 2. ACTをインストールしたい場所まで展開した __フォルダごと__ 移動してActorを実行する。
 3. おわり
 
-## 設定を引き継いだまま最新のプラグイン、ACTにしたいんだけど……
-インストールを終えた後 __コンフィグをインストールしますか?__ で __いいえ__ を選択してください。
+## 設定を引き継いだまま最新のプラグイン・ACTにしたい
+1. 新たにActorでインストールする。
+    最後に聞かれる __コンフィグをインストールしますか?__ で __いいえ__ を選択する。
 
-その後ATCを起動して`Plugins`から、古いプラグインを`Remove`した上で
+2. ACTを起動して`Plugins`から、古いプラグインを`Remove`（右上の×ボタン）する。
+
+![Screenshot](https://i.imgur.com/Yxt6f7Z.png)
+
+3. Actorフォルダの中にある
 
   - `ACT\plugin\FFXIV_ACT_Plugin\FFXIV_ACT_Plugin.dll`
   - `ACT\plugin\OverlayPlugin\OverlayPlugin.dll`
@@ -48,7 +53,9 @@ ACTを動かすために必要なソフト類のインストール
   - `ACT\plugin\Hojoring\ACT.TTSYukkuri.dll`
   - `ACT\plugin\Hojoring\ACT.UltraScouter.dll`
 
-を`Add`してください。
+を`Browse...`から選んで`Add/Enable Plugin`する。
+
+4. 最後にACTを再起動する。
 
 ## わからないことがある
 [Issue](https://github.com/eai04191/Actor/issues/new)、[Twitter](https://twitter.com/eai04191)でお気軽にお聞きください。
