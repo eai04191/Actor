@@ -58,7 +58,7 @@ ACTを動かすために必要なソフト類のインストール
 4. 最後にACTを再起動する。
 
 ## わからないことがある
-[Issue](https://github.com/eai04191/Actor/issues/new)、[Twitter](https://twitter.com/eai04191)でお気軽にお聞きください。
+[Github Issue](https://github.com/eai04191/Actor/issues/new)もしくは[Twitter](https://twitter.com/eai04191)かDiscord Eai#4693でお気軽にお問い合わせください。
 
 ---
 
