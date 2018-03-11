@@ -3,7 +3,7 @@
 
 FFXIVで使うためのACTを一発で導入するツールです。
 
-![Screenshot](https://i.imgur.com/A7G3mYT.png)
+![Screenshot](https://i.imgur.com/HA6s2WJ.png)
 
 ## Actorがしてくれること
 
