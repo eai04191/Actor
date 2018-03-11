@@ -63,7 +63,6 @@ ACTを動かすために必要なソフト類のインストール
 ---
 
 ## 以下のコードを利用しています
-- [Native Zip and Unzip XP/Vista/7 [AHK_L] - Scripts and Functions - AutoHotkey Community](https://autohotkey.com/board/topic/60706-native-zip-and-unzip-xpvista7-ahk-l/)
 - [cocobelgica/AutoHotkey-JSON: JSON module for AutoHotkey](https://github.com/cocobelgica/AutoHotkey-JSON)
 
 ## License
