@@ -63,7 +63,12 @@ ParseJson(project) {
 }
 
 Unzip(filepath, extractpath) {
-    RunWait, util\7za.exe x %filepath% -o%extractpath%
+    RunWait, util\7za.exe x %filepath% -o%extractpath%, %A_WorkingDir%, UseErrorLevel
+    if(ErrorLevel <> 0){
+        MsgBox, 展開に失敗しました。`nおそらくファイルのダウンロードに失敗しています。`n最初からやり直してください。
+        FileAppend, % Log, Actor.log
+        ExitApp
+    }
 }
 
 Download(url, saveto) {
@@ -110,7 +115,7 @@ Install:
             FileRemoveDir % "ACT_old", 1
             FileMoveDir, ACT, ACT_old, R
         } Catch e {
-            MsgBox, 64, % windowtitle, すでに存在しているACTフォルダを移動できませんでした。`n先にACTを終了させてください。
+            MsgBox, 64, % windowtitle, すでに存在しているACTフォルダを移動できませんでした。`n先にACTを終了させるかACTフォルダを削除してください。
             Goto, GuiClose
         }
     }else{
