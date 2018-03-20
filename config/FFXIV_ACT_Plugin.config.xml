@@ -3,6 +3,6 @@
 	<SettingsSerializer>
 		<ComboBox Name="cboLanguage" Value="日本語" />
 		<ComboBox Name="cboParseFilter" Value="Party" />
-		<CheckBox Name="chkWinPCap" Value="True" />
+		<ComboBox Name="cboParseMode" Value="WinPCap Network" />
 	</SettingsSerializer>
 </Config>
