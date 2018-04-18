@@ -6,9 +6,9 @@ FFXIVで使うためのACTを一発で導入するツールです。
 ![Screenshot](https://i.imgur.com/HA6s2WJ.png)
 
 ## Disclaimer 免責条項
-ACTは非公式の外部ツールです。
-ACT及びActorを使用したことによって利用者がいかなる不利益を被ったとしても、__作者は一切の責任を負いません。__
-必ず自己責任においてご利用ください。
+ACTは非公式の外部ツールです。  
+ACT及びActorを使用したことによって利用者がいかなる不利益を被ったとしても、__作者は一切の責任を負いません。__  
+必ず自己責任においてご利用ください。  
 また、ゲーム内チャットやその他TwitterなどでもACTを使っている旨は発言しないことをおすすめします。
 
 ## Actorがしてくれること
@@ -64,7 +64,12 @@ ACTを動かすために必要なソフト類のインストール
 4. 最後にACTを再起動する。
 
 ## わからないことがある
-[Github Issue](https://github.com/eai04191/Actor/issues/new)もしくは[Twitter](https://twitter.com/eai04191)かDiscord Eai#4693でお気軽にお問い合わせください。
+__⚠注意__ : 私はACT・FFXIV_Plugin・Hojoringの作者ではありません。
+
+ですが分かる範囲でサポートしますので、お気軽にお問い合わせください。
+ - Discord Eai#4693
+ - [Twitter @eai04191](https://twitter.com/eai04191) (フォローしなくてもDMが送れます。)
+ - [Github Issue](https://github.com/eai04191/Actor/issues/new)
 
 ---
 
