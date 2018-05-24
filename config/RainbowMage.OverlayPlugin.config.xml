@@ -15,12 +15,12 @@
   <Overlays>
     <Overlay Type="RainbowMage.OverlayPlugin.Overlays.MiniParseOverlayConfig">
       <MiniParseOverlayConfig>
-        <Name>Amethyst</Name>
+        <Name>kagerou</Name>
         <IsVisible>true</IsVisible>
         <IsClickThru>false</IsClickThru>
         <Position>
-          <X>100</X>
-          <Y>100</Y>
+          <X>20</X>
+          <Y>20</Y>
         </Position>
         <Size>
           <Width>400</Width>
