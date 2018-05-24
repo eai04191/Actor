@@ -154,6 +154,13 @@ Install:
         Log("ランタイム類の準備が完了しました")
     }
 
+    If (A_OSVersion = "WIN_7") {
+        Win7FixPatch_URL = http://download.microsoft.com/download/0/6/5/0658B1A7-6D2E-474F-BC2C-D69E5B9E9A68/MicrosoftEasyFix51044.msi
+        Log("MicrosoftEasyFix51044をダウンロード"
+        Download(Win7FixPatch_URL, "actor_download\" . "MicrosoftEasyFix51044.msi")
+        Log("MicrosoftEasyFix51044をインストール")
+        RunWait, actor_download\MicrosoftEasyFix51044.exe /passive /promptrestart
+    }
 
     Log("最新のファイル情報を取得します")
 
