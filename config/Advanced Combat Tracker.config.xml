@@ -2,6 +2,7 @@
 <Config>
     <SettingsSerializer>
         <NumericUpDown Name="nudIdleLimit" Value="30" />
+        <CheckBox Name="cbExText" Value="False" />
     </SettingsSerializer>
     <ActPlugins>
         <Plugin Enabled="True" Path="ACTPATH\plugin\FFXIV_ACT_Plugin\FFXIV_ACT_Plugin.dll" />
