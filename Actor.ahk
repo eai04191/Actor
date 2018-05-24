@@ -128,7 +128,7 @@ Install:
     FileCreateDir % "actor_download"
 
 
-    MsgBox, 36, % windowtitle, 動作に必要なランタイム類`n･Visual Studio 2017 用 Microsoft Visual C++ 再頒布可能パッケージ`n･Microsoft .NET Framework 4.7`n･Win10Pcap`nをダウンロード・インストールしますか?`n`nよくわからなければ [はい] を選択してください。
+    MsgBox, 36, % windowtitle, 動作に必要なランタイム類`n･Visual Studio 2017 用 Microsoft Visual C++ 再頒布可能パッケージ`n･Microsoft .NET Framework 4.7`nをダウンロード・インストールしますか?`n`nよくわからなければ [はい] を選択してください。
     IfMsgBox, Yes
     {
         MsgBox, 64, % windowtitle, インストール中に再起動を求められた場合 [あとで再起動する] を選択し、`nすべての処理が完了してから再起動してください。
@@ -159,7 +159,7 @@ Install:
         Log("MicrosoftEasyFix51044をダウンロード")
         Download(Win7FixPatch_URL, "actor_download\" . "MicrosoftEasyFix51044.msi")
         Log("MicrosoftEasyFix51044をインストール")
-        RunWait, actor_download\MicrosoftEasyFix51044.exe /passive /promptrestart
+        RunWait, actor_download\MicrosoftEasyFix51044.msi /passive /promptrestart
     }
 
     Log("最新のファイル情報を取得します")
