@@ -19,7 +19,7 @@ OverlayPlugin.owner := "hibiyasleep"
 OverlayPlugin.repo := "OverlayPlugin"
 
 title := "Actor"
-version := "2.0.3"
+version := "2.0.4"
 windowtitle := title " v" version
 Log := ""
 Progress := 0
