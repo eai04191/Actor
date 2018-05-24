@@ -17,7 +17,6 @@ ACT及びActorを使用したことによって利用者がいかなる不利益
 ACTを動かすために必要なソフト類のインストール
  - Visual Studio 2017 用 Microsoft Visual C++ 再頒布可能パッケージ
  - .NET Framework 4.7
- - Win10Pcap
 
 ### ACTインストール
 1. [Advanced Combat Tracker](http://advancedcombattracker.com/)最新版のダウンロード
@@ -29,7 +28,6 @@ ACTを動かすために必要なソフト類のインストール
   - `GameLanguage`: __日本語__
   - `ParseFilter`: __Party__
   - `Number of seconds to wait after the last combat action to begin a new encounter.`: __30__
-  - [x] `Use WinPCap Network Driver`
 7. ショートカットの作成（任意）
 
 ## 対象

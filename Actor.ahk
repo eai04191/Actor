@@ -151,12 +151,6 @@ Install:
         Log(".NET Framework 4.7をインストール")
         RunWait, actor_download\dotNetfx47.exe /passive /promptrestart
 
-        Log("Win10Pcapをダウンロード")
-        URLDownloadToFile % Win10Pcap_URL, % A_ScriptDir . "\actor_download\Win10Pcap.msi"
-        Download(Win10Pcap_URL, "actor_download\" . "Win10Pcap.msi")
-        Log("Win10Pcapをインストール")
-        RunWait, actor_download\Win10Pcap.msi /passive /promptrestart
-
         Log("ランタイム類の準備が完了しました")
     }
 
