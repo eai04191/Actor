@@ -19,7 +19,7 @@ OverlayPlugin.owner := "hibiyasleep"
 OverlayPlugin.repo := "OverlayPlugin"
 
 title := "Actor"
-version := "2.0.0"
+version := "2.0.2"
 windowtitle := title " v" version
 Log := ""
 Progress := 0
@@ -66,7 +66,7 @@ Unzip(filepath, extractpath) {
     RunWait, util\7za.exe x %filepath% -o%extractpath%, %A_WorkingDir%, UseErrorLevel
     if(ErrorLevel <> 0){
         MsgBox, 展開に失敗しました。`nおそらくファイルのダウンロードに失敗しています。`n最初からやり直してください。
-        FileAppend, % Log, Actor.log
+        FileAppend, % Log, ActorLog.log
         ExitApp
     }
 }
@@ -100,7 +100,7 @@ InstallConfig() {
 }
 
 GuiClose:
-    FileAppend, % Log, Actor.log
+    FileAppend, % Log, ActorLog.log
     ExitApp
 
 Install:
