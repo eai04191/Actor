@@ -4,5 +4,7 @@
 		<ComboBox Name="cboLanguage" Value="日本語" />
 		<ComboBox Name="cboParseFilter" Value="Party" />
 		<CheckBox Name="chkEnableOverlay" Value="False" />
+		<TextBox Name="txtTargetFont" Value="Microsoft Sans Serif, 8.25pt" />
+		<!-- chkEnableOverlayを機能させるためにtxtTargetFontが必要 -->
 	</SettingsSerializer>
 </Config>
