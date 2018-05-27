@@ -19,7 +19,7 @@ OverlayPlugin.owner := "hibiyasleep"
 OverlayPlugin.repo := "OverlayPlugin"
 
 title := "Actor"
-version := "2.0.4"
+version := "2.0.4.1"
 windowtitle := title " v" version
 Log := ""
 Progress := 0
@@ -97,6 +97,7 @@ InstallConfig() {
     StringReplace, ACTconfig, ACTconfig, ACTPATH, % A_ScriptDir . "\ACT", All
     FileAppend, % ACTconfig, % A_AppData . "\Advanced Combat Tracker\Config\Advanced Combat Tracker.config.xml"
     FileCopy, config\FFXIV_ACT_Plugin.config.xml, % A_AppData . "\Advanced Combat Tracker\Config\", 1
+    FileCopy, config\RainbowMage.OverlayPlugin.config.xml, % A_AppData . "\Advanced Combat Tracker\Config\", 1
 }
 
 GuiClose:
