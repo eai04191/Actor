@@ -19,7 +19,7 @@ OverlayPlugin.owner := "hibiyasleep"
 OverlayPlugin.repo := "OverlayPlugin"
 
 title := "Actor"
-version := "2.0.4.1"
+version := "2.0.4.2"
 windowtitle := title " v" version
 Log := ""
 Progress := 0
@@ -161,6 +161,8 @@ Install:
         Download(Win7FixPatch_URL, "actor_download\" . "MicrosoftEasyFix51044.msi")
         Log("MicrosoftEasyFix51044をインストール")
         RunWait, actor_download\MicrosoftEasyFix51044.msi /passive /promptrestart
+        Log("レジストリの修正をインストール")
+        RunWait, util\Windows7_tls_fix.reg
     }
 
     Log("最新のファイル情報を取得します")
@@ -246,5 +248,9 @@ Install:
 
     MsgBox, 64, Actor, すべての処理が完了しました
     Log("すべての処理が完了しました")
+
+    If (A_OSVersion = "WIN_7") {
+        MsgBox, 64, Actor, 設定を適用するためPCを再起動してください。
+    }
 
     Gui, Add, Button, Default gGuiClose w100 xp+0 yp+0, 終了
