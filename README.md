@@ -5,6 +5,12 @@ FFXIVで使うためのACTを一発で導入するツールです。
 
 ![Screenshot](https://i.imgur.com/HA6s2WJ.png)
 
+## ⚠️ Actorはメンテナンスされていません
+**これからACT及びhojoringを導入する際は、hojoring開発者によるチュートリアル記事を参考にすることを推奨します。
+https://www.anoyetta.com/entry/hojoring-setup**
+
+---
+
 ## Disclaimer 免責条項
 ACTは非公式の外部ツールです。  
 ACT及びActorを使用したことによって利用者がいかなる不利益を被ったとしても、__作者は一切の責任を負いません。__  
